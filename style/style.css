@@ -823,6 +823,12 @@ display: block;  /* may not need this, but I've found I do */
 	margin-bottom: 10px;
 }
 
+.phone-icon {
+	width: 18px;
+	margin-right: 5px;
+	display: inline-block;
+}
+
 @media only screen and (max-width: 768px) {
 	.swiper-slide {
 		padding: auto;
