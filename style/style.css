@@ -770,6 +770,7 @@ display: block;  /* may not need this, but I've found I do */
 .text-paragraph {
 	margin-left: 20px;
 	margin-right: 20px;
+	font-size: 22.5px;
 }
 
 .box-red {
