@@ -13,7 +13,7 @@ body {
 	max-width: 100%px;
 	margin: 0 auto;
 	font-family: 'Nunito Sans';
-	font-size: 16px;
+	font-size: 22.5px;
 }
 
 
@@ -63,8 +63,8 @@ a:hover {
 .main {
 	max-width: 1280px;
 	margin: 0 auto;
-    	font-family: 'Noto Sans SC';
-	font-size: 16px;
+    font-family: 'Nunito Sans';
+	font-size: 22.5px;
 } 
 
 @media only screen and (max-width: 768px) {
@@ -754,8 +754,87 @@ display: block;  /* may not need this, but I've found I do */
   	}
 }
 
+.container {
+	max-width: 1280px;
+    margin: 0 auto;
+}
 
+.full-w {
+	width: 100%;
+}
 
+.text-center {
+	text-align: center;
+}
+
+.text-paragraph {
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 22.5px;
+}
+
+.box-red {
+	color: white;
+	background-color: rgb(163, 0, 0);
+	padding: 20px 10px;
+	text-align: center;
+}
+
+.call-out {
+	color: white;
+	background-color: rgb(163, 0, 0);
+	padding: 20px 10px;
+	text-align: center;	
+	margin: 0 auto;
+}
+
+.call-out p {
+	font-style: italic;
+	font-size: 28px;
+	margin-block-end: auto;
+}
+
+.on-ward {
+	text-align:center;
+	background-color:#000000;
+	font-weight: bold;
+	color:#FFFFFF; 
+	padding-top:10px; 
+	padding-bottom:10px; 
+	margin-left:10px; 
+	margin-right:10px;
+}
+
+.call-now-text {
+	font-weight: bold;
+	font-size: 1.6em;
+	text-align: center; 
+	text-decoration: none; 
+	display: inline-block; 
+	margin: 0px 0px;
+}
+
+.call-now-phone {
+	padding:20px;
+	font-size: 1.5em;
+}
+
+.swiper-slide {
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.phone-icon {
+	width: 18px;
+	margin-right: 5px;
+	display: inline-block;
+}
+
+@media only screen and (max-width: 768px) {
+	.swiper-slide {
+		padding: auto;
+	}
+}
 /* ............/about/............ *
 iframe.video {  
     width: 100%;
