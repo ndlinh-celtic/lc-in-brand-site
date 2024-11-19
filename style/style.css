@@ -83,6 +83,15 @@ a:hover {
 	text-align:center;
 }
 
+.page-title {
+	padding-top:20px;	
+}
+
+.page-content {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 .inpage-nav  {
   	list-style: none;
 	width: 75%;
@@ -118,8 +127,7 @@ a:hover {
   	text-decoration: none;
   	color: #FFFFFF;
   	display: inline-block;
-  	margin: 0px 0px;
-  	opacity: 0.6;
+  	margin: 0px 0px;  	
   	transition: 0.3s;
 }
 
@@ -828,6 +836,11 @@ display: block;  /* may not need this, but I've found I do */
 	width: 18px;
 	margin-right: 5px;
 	display: inline-block;
+}
+
+.privacy-page {
+	max-width: 1020px;
+	margin: 0 auto;	
 }
 
 @media only screen and (max-width: 768px) {
